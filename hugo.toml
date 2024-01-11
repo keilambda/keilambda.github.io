@@ -1,7 +1,6 @@
 title = "Kei Lambda"
 baseURL = "https://keilambda.com/"
 languageCode = "en-us"
-theme = "smol"
 
 [markup]
 [markup.highlight]
