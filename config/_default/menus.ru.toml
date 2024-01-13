@@ -1,0 +1,17 @@
+[[main]]
+name = "Основная"
+pageRef = "/"
+weight = 10
+[[main]]
+name = "Посты"
+pageRef = "/posts"
+weight = 20
+
+[[footer]]
+name = "Категории"
+pageRef = "/categories"
+weight = 10
+[[footer]]
+name = "Теги"
+pageRef = "/tags"
+weight = 20

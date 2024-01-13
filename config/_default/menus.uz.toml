@@ -1,0 +1,17 @@
+[[main]]
+name = "Asosiy"
+pageRef = "/"
+weight = 10
+[[main]]
+name = "Postlar"
+pageRef = "/posts"
+weight = 20
+
+[[footer]]
+name = "Kategoriyalar"
+pageRef = "/categories"
+weight = 10
+[[footer]]
+name = "Teglar"
+pageRef = "/tags"
+weight = 20
