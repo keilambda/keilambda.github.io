@@ -4,5 +4,5 @@
 		[<a href="{{ .URL }}"><b>{{ .Name }}</b></a>]
     {{- end }}
 	</p>
-	<p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a></p>
+	<p>&copy; {{ now.Year }} <a href='{{ printf "%s%s" .Site.BaseURL .Site.Language.Lang }}'><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a></p>
 </footer>

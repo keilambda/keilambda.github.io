@@ -1,6 +1,8 @@
 title = "Kei Lambda"
 baseURL = "https://keilambda.com/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [permalinks]
 articles = "/articles/:year/:month/:day/:slug"
