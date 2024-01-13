@@ -1,14 +1,14 @@
 <header>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
-	== <a href='{{ printf "%s%s" .Site.BaseURL .Site.Language.Lang }}'>{{ .Site.Title }}</a> ==<br>
+	== <a href='{{ .Site.BaseURL }}{{ .Site.Language.Lang }}'>{{ .Site.Title }}</a> ==<br>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
 	<p>
 	<nav>
-			{{ with .Site.Menus.main }}
-			{{ range . }}
-			[<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>]
-			{{ end }}
+		{{ with .Site.Menus.main }}
+		{{ range . }}
+		[<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>]
+		{{ end }}
 	</nav>
 	</p>
 	{{ end }}
