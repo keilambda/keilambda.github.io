@@ -3,9 +3,13 @@ name = "Asosiy"
 pageRef = "/"
 weight = 10
 [[main]]
-name = "Postlar"
-pageRef = "/posts"
+name = "Men Haqimda"
+pageRef = "/about"
 weight = 20
+[[main]]
+name = "Maqolalar"
+pageRef = "/articles"
+weight = 30
 
 [[footer]]
 name = "Kategoriyalar"

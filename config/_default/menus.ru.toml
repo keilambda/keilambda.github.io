@@ -3,9 +3,13 @@ name = "Основная"
 pageRef = "/"
 weight = 10
 [[main]]
-name = "Посты"
-pageRef = "/posts"
+name = "Про меня"
+pageRef = "/about"
 weight = 20
+[[main]]
+name = "Статьи"
+pageRef = "/articles"
+weight = 30
 
 [[footer]]
 name = "Категории"

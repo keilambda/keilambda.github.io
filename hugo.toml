@@ -2,6 +2,9 @@ title = "Kei Lambda"
 baseURL = "https://keilambda.com/"
 languageCode = "en-us"
 
+[permalinks]
+articles = "/articles/:year/:month/:day/:slug"
+
 [markup]
 [markup.highlight]
 anchorLineNos = false

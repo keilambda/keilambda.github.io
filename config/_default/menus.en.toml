@@ -3,9 +3,13 @@ name = "Main"
 pageRef = "/"
 weight = 10
 [[main]]
-name = "Posts"
-pageRef = "/posts"
+name = "About Me"
+pageRef = "/about"
 weight = 20
+[[main]]
+name = "Articles"
+pageRef = "/articles"
+weight = 30
 
 [[footer]]
 name = "Categories"
