@@ -3,27 +3,26 @@ html {
 }
 
 :root {
-	--bgcolor: white;
-	--fontcolor: #444;
-	--linkcolor: #00e;
-	--visitedcolor: #551a8b;
-	--precolor: #fff;
+	--linkcolor: #de0000;
+	--visitedcolor: #7e69de;
+
+	--bgcolor: #fff;
+	--fontcolor: #000;
 	--prebgcolor: #000;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bgcolor: black;
-		--fontcolor: white;
-		--linkcolor: #5bf;
-		--visitedcolor: #ae5ee0;
-		--precolor: #fff;
+		--linkcolor: #f26187;
+
+		--bgcolor: #1c1b22;
+		--fontcolor: #fff;
 		--prebgcolor: #383838;
 	}
 }
 
 body {
-	max-width: 800px;
+	max-width: 1040px;
 	margin: 40px auto;
 	padding: 0 10px;
 	font: 14px/1.5 monospace;
