@@ -94,3 +94,16 @@ img {
 	height: auto;
 	margin: auto;
 }
+
+select {
+	font-family: inherit;
+	font-size: inherit;
+	border: none;
+	background: none;
+	color: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	padding: 0;
+}

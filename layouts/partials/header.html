@@ -5,11 +5,19 @@
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
 	<p>
 	<nav>
-		{{ with .Site.Menus.main }}
-		{{ range . }}
+		{{ range .Site.Menus.main }}
 		[<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>]
 		{{ end }}
+
+		[<select onchange='window.location.href="{{ $.Site.BaseURL }}"+this.value'>
+		{{ range $.Site.Home.AllTranslations }}
+		{{ if eq $.Site.Language.Lang .Lang }}
+			<option value="{{ .Lang }}" selected>{{ .Lang | strings.ToUpper }}</option>
+		{{ else }}
+			<option value="{{ .Lang }}">{{ .Lang | strings.ToUpper }}</option>
+		{{ end }}
+		{{ end }}
+		</select>]
 	</nav>
 	</p>
-	{{ end }}
 </header>
